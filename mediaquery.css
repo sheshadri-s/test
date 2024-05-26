@@ -1,0 +1,80 @@
+@media screen and (max-width: 480px) {
+  .navbar li a {
+    margin:15px 10px;
+    font-size: 20px;
+  }
+  .main-content {
+    position: relative;
+    height: 90vh;
+  }
+  .heading1 {
+    margin-top: 50px;
+  }
+  .heading1 h1 {
+    font-size: 50px;
+  }
+  .heading2 h1 {
+    font-size: 50px;
+  }
+  .heading2 h5 {
+    font-size: 10px;
+  }
+  .heading3 {
+    margin-top: 50px;
+    margin-right: 10px;
+  }
+  .heading3 p {
+    font-size: 15px;
+  }
+  .footer {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+  }
+  .footer :first-child {
+    margin-left: 5px;
+  }
+  .footer :nth-child(2){
+    margin-right: 10px;
+  }
+  .footer a {
+    font-size: 15px;
+  }
+  .second{
+    height: 50vh;
+    width: 90%;
+  }
+  .second #boundingelem{
+    padding-left: 14px;
+  }
+  .third{
+    height: 60vh;
+  }
+  .about img{
+    height: 150px;
+    width: 150px;
+  }
+  .about p{
+    font-size: 7px;
+    text-align: center;
+  }
+  .email{
+    margin-top:8vh
+  }
+  .email #boundingelem1{
+    font-size:12px
+}
+.date-time{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+.date-time p{
+    font-size: 10px;
+  }
+  .social-media a{
+    font-size: 10px;
+  }
+}
